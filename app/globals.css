@@ -1,33 +1,4 @@
 @import "tailwindcss";
-
-@theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  --color-background: oklch(1 0 0);
-  --color-foreground: oklch(0.145 0 0);
-  --color-card: oklch(1 0 0);
-  --color-card-foreground: oklch(0.145 0 0);
-  --color-primary: oklch(0.205 0 0);
-  --color-primary-foreground: oklch(0.985 0 0);
-  --color-secondary: oklch(0.97 0 0);
-  --color-secondary-foreground: oklch(0.205 0 0);
-  --color-muted: oklch(0.97 0 0);
-  --color-muted-foreground: oklch(0.556 0 0);
-  --color-accent: oklch(0.97 0 0);
-  --color-accent-foreground: oklch(0.205 0 0);
-  --color-destructive: oklch(0.577 0.245 27.325);
-  --color-border: oklch(0.922 0 0);
-  --color-input: oklch(0.922 0 0);
-  --color-ring: oklch(0.708 0 0);
-  --radius: 0.5rem;
-}
-
-@layer base {
-  * {
-    border-color: var(--color-border);
-  }
-  body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
-  }
-}
+@theme{--color-cream:#F5F1EB;--color-soft:#FAFAF9;--color-sage:#6B8E6F;--color-ink:#3C3C3C;--color-clay:#C87A5C;--font-serif:var(--serif);--font-sans:var(--sans);--radius:.5rem}
+@layer base{*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#F5F1EB;color:#3C3C3C;font-family:var(--sans)}button,a,select{cursor:pointer}h1,h2,h3,p{margin-top:0}h2{font-family:var(--serif);font-size:clamp(2.8rem,5vw,5rem);line-height:.95;letter-spacing:-.04em}}
+@layer components{.eyebrow{margin-bottom:1rem;font-size:.7rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#6B8E6F}.pill{border-radius:999px;padding:.8rem 1.3rem;font-size:.85rem;font-weight:600}.leaf{position:absolute;width:32%;height:28%;background:#dce6c8cc;border-radius:80% 10% 80% 10%;transform-origin:bottom}.art{position:relative;overflow:hidden}.art:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,#0002,transparent)}}

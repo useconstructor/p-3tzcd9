@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#F5F1EB",
+  "secondaryColor": "#FAFAF9",
+  "backgroundColor": "#F5F1EB",
+  "textColor": "#3C3C3C",
+  "accentColor": "#6B8E6F",
+  "fontHeading": "Cormorant Garamond",
+  "fontBody": "DM Sans",
+  "borderRadius": "0.5rem",
+  "logoText": "GreenVine",
+  "logoImageUrl": "https://vabacntbfcwhgkjqajcw.supabase.co/storage/v1/object/public/screenshots/projects/P-3TZCD9/logo.png",
+  "tone": "premium"
+}
